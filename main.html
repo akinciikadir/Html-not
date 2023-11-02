@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">      <!--TÜRKÇE KARAKTER-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">      <!--SİTENİN TELEFONDA NORMAL GÖZÜKMESİNİ SAĞLAR-->
+    <meta name="keywords" content="sitedeki anahtar kelimeler">
+    <meta name="description" content="Sitedeki açıklamalar">
+    <title>Sekmedeki başlık</title>
+ 
+</head>
+
+
+<body>
+    <h1>h1 başlığı</h1>     <!--Başlıklar h'lerin içine yazılır-->
+    <h2>h2 başlığı</h2>     
+    <h3>h3 başlığı</h3>     
+    <h4>h4 başlığı</h4>     <!--Boyut sıralaması h1>h2>h3>h4>h5>h6 şeklindedir-->
+    <h5>h5 başlığı</h5>
+    <h6>h6 başlığı</h6>
+
+    <hr>        <!--Yatay bir çizgi çizer -->
+
+    <p>İstanbul</p>     <!--paragraflar p'nin içine yazılır-->
+    <p>İzmir</p>
+    <br>                <!--Bir satır boşluk bırakmak için kulllanılır-->
+    
+    <p><strong>Ankara</strong></p>          <!--Strong yazıyı daha kalın yapmamızı sağlar-->
+    
+    <p><i>Zonguldak</i></p>        <!--i Yazının italik olmasını sağlar-->
+
+    <p><mark>Antalya</mark></p>     <!--mark yazıyı işaretlemeye yarar-->
+
+    <img src="/resimler/galata_tower_4x3.avif" alt="Resim bulunamadı"/> <!--src(kaynak) = koymak istediğimiz resmin dosya yolu-->  <!--alt = Resmin açılmadığı durumlarda yazmasını istediğimiz şey-->
+    <br>
+    <center><img src="C:\Users\Kadir\Desktop\Html\resimler\istanbul.jpg" alt="Resim bulunamadı" width="1280" height="720"/></center>    <!--width = genişlik , height = uzunluk-->          
+    <!--Center yazıyı veya resmi ortalamak için kullanılır-->
+
+
+    x sitesine gitmek için <a href="Gitmek istediğiniz link" target="_blank">tıklayınız</a> <!--target="_blank" tıkladığımız sayfayı yeni sekmede açar-->
+    <br>
+
+    <a href="https://www.youtube.com/" target="_blank">
+        <img src="C:\Users\Kadir\Desktop\Html\resimler\youtube.png" alt="Resim bulunamadı" width="100" height="100">    <!--link yönlendirmesini icon ile yaptık-->
+    </a>
+
+    <ul>
+        <h6>Şehirler</h6>
+        <li>İstanbul</li>   <!--ul sırasız listeleme-->
+        <li>İzmir</li>
+        <li>Ankara</li>
+    </ul>
+    <br>
+    <ol>
+        <h6>Şehirler</h6>
+        <li>İstanbul</li>   <!--ol Sıralı listeleme-->
+        <li>İzmir</li>      <!--type ile sıralamanın türü değiştirilebilir -->
+        <li>Ankara</li>
+    </ol>
+
+    <span>span etiketi kullandığı alan kadar blok kaplar </span>
+    <p>p etiketi tüm satırı kaplar. alt ve üstten birer boşluk bırakır </p>
+
+
+    <div> web sayfalarını bölümlemek ve düzenlemek için kullanılan bir yapısal etikettir.</div>
+    
+    <br>
+    <br>
+
+    <form> <!--Form oluşturma etiketi-->
+        <input type="text" placeholder="kullanıcı adı"> <br> <!--input = girdi alma, type = tür, placeholder = kısa açıklama-->
+        <input type="password" placeholder="şifre"> <br>
+        <input type="email" placeholder="e mail adres"> <br>
+        ben robot değilim <input type="checkbox" id="kitapCheckbox">  <br>
+        kadın <input type="radio" name="cinsiyetRadio"> <br>    <!--id ler aynı olmazsa her 2 seçenekte işaretlenebilir olur-->
+        erken <input type="radio" name="cinsiyetRadio"> <br>
+        <input type="file"> <br>
+        <input type="submit" value="gönder"> <br>
+        <textarea name="mesajInput" id="mesajAlanı" cols="50" rows="10"></textarea> <br>
+            <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+
+            </select> <br>
+        <input type="date"> <br>
+        <input type="reset"> <br>
+    
+    </form>
+    <br>
+    <br>
+
+    <video width="800" height="400" controls> <!--control = siteye yüklediğimiz video üzerinde oynama yapmamızı sağlar-->
+        <source src="C:\Users\Kadir\Desktop\Html\videolar\turkey.mp4" type="video">
+    </video> 
+
+    <br>
+
+    <!--Başka bir web sayfasını kendi sitemize yerleştirme-->
+    <iframe src="https://www.youtube.com/" width="560" height="315" ></iframe> 
+   
+</body>
+</html>
